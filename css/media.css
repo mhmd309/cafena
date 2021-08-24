@@ -1,0 +1,124 @@
+/* Smart Phones And Tablets */
+
+@media (max-width:768px) {
+    .upperbar .info-upper {
+        flex-direction: column
+    }
+    .upperbar .info-upper > div {
+        margin: 10px 0
+    }
+    .upperbar .info-upper .img img {
+        display: none
+    }
+    .upperbar .info-upper .detials span {
+        font-size: 14px
+    }
+    .navbar {
+        padding: 5px 0
+    }
+    .navbar .navbar-nav {
+        margin: 10px 0
+    }
+    .navbar .navbar-nav .nav-item {
+        margin: 5px 0
+    }
+    .navbar .nav-item .nav-link::before {
+        left: 0
+    }
+    .navbar .navbar-brand {
+        display: block
+    }
+    .navbar .search,
+    .navbar .navbar-nav {
+        text-align: center
+    }
+    .navbar .form {
+        left: 30px;
+        width: 280px
+    }
+    .header .content-header h1 {
+        font-size: 40px
+    }
+    .header .content-header .buttons button {
+        padding: 5px 20px
+    }
+    .header .img-header img {
+        margin: 0 auto
+    }
+    .about-us .img-about img:last-child {
+        left: 0;
+        max-width: 40%
+    }
+    .about-us .content-about h2 {
+        font-size: 22px
+    }
+    .menu .info h2 {
+        font-size: 25px
+    }
+    .grade .info h2,
+    .blog .info h2 {
+        font-size: 30px
+    }
+    .grade .boxs-grade .top {
+        margin-top: 20px
+    }
+    .grade .boxs-grade .box span {
+        left: 45px
+    }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {
+    .upperbar .info-upper {
+        flex-direction: column
+    }
+    .upperbar .info-upper > div {
+        margin: 10px 0
+    }
+    .upperbar .info-upper .img img {
+        display: none
+    }
+    .navbar {
+        padding: 5px 0
+    }
+    .navbar .navbar-nav {
+        margin: 10px 0
+    }
+    .navbar .navbar-nav .nav-item {
+        margin: 5px 0
+    }
+    .navbar .nav-item .nav-link::before {
+        left: 0
+    }
+    .navbar .navbar-brand {
+        display: block
+    }
+    .navbar .search,
+    .navbar .navbar-nav {
+        text-align: center
+    }
+    .navbar .form {
+        left: 200px
+    }
+    .header .img-header img {
+        margin: 0 auto
+    }
+    .about-us .content-about h2 {
+        font-size: 40px
+    }
+    .grade .info h2,
+    .blog .info h2 {
+        font-size: 30px
+    }
+    .grade .boxs-grade .top {
+        margin-top: 20px
+    }
+    .grade .boxs-grade .box span {
+        left: 45px
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
